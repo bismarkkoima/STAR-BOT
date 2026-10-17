@@ -1,0 +1,10 @@
+# Normalize all text files to LF in the repo; Git converts on checkout.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jks binary
+*.keystore binary
+*.ppn binary
+*.pv binary
+*.task binary

@@ -1,0 +1,15 @@
+# Copy this file to `local.properties` (in this same android-app/ folder) and
+# fill in real values. `local.properties` is gitignored and will never be
+# committed — `local.properties.example` is the only one that should be in git.
+
+sdk.dir=/path/to/your/Android/sdk
+
+# Get from https://console.anthropic.com
+CLAUDE_API_KEY=sk-ant-your-key-here
+
+# Get a free personal-use key from https://console.picovoice.ai
+PICOVOICE_ACCESS_KEY=your-picovoice-key-here
+
+# true  = fully offline, on-device model only, never uses the network (default)
+# false = use the Claude API when online (needs CLAUDE_API_KEY above), local model otherwise
+OFFLINE_ONLY=true
