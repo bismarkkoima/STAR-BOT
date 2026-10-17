@@ -76,7 +76,6 @@ PersonalAI-Assistant/
 | `prompts/system_prompt.md` | System prompt that teaches the LLM your tools and how to respond |
 | `tasker/tasks/` | Human-readable spec for each Tasker Profile/Task you need to build (Tasker configs aren't plain-text friendly, so these are step-by-step build docs, not XML you import) |
 | `docs/` | Setup guide, voice/wake-word setup, offline model notes, permissions checklist |
-| `scripts/` | Small helper scripts (e.g. testing the LLM bridge from a terminal before wiring it into the app) |
 
 ## Build order (recommended)
 
